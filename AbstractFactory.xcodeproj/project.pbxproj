@@ -10,6 +10,7 @@
 		CE76810728A2137200D51166 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76810628A2137200D51166 /* main.swift */; };
 		CE76810F28A213F100D51166 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76810E28A213F100D51166 /* Button.swift */; };
 		CE76811128A215F900D51166 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76811028A215F900D51166 /* CheckBox.swift */; };
+		CE76811328A2170D00D51166 /* TextEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76811228A2170D00D51166 /* TextEdit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		CE76810628A2137200D51166 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE76810E28A213F100D51166 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		CE76811028A215F900D51166 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		CE76811228A2170D00D51166 /* TextEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEdit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				CE76810E28A213F100D51166 /* Button.swift */,
 				CE76811028A215F900D51166 /* CheckBox.swift */,
+				CE76811228A2170D00D51166 /* TextEdit.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE76811328A2170D00D51166 /* TextEdit.swift in Sources */,
 				CE76810728A2137200D51166 /* main.swift in Sources */,
 				CE76810F28A213F100D51166 /* Button.swift in Sources */,
 				CE76811128A215F900D51166 /* CheckBox.swift in Sources */,
