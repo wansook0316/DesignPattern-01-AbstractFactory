@@ -11,7 +11,7 @@ internal protocol TextEdit {
     
     var value: String { get set }
     
-    func updateValue(with value: String)
+    mutating func updateValue(with value: String)
     func render()
     
 }
