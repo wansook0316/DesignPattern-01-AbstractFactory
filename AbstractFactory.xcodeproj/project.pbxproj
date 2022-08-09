@@ -114,6 +114,15 @@
 		CEA99B9928A21AC700D1BB31 /* Implementations */ = {
 			isa = PBXGroup;
 			children = (
+				CEA99BA728A21F5B00D1BB31 /* Factories */,
+				CEA99BA628A21F4D00D1BB31 /* Components */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		CEA99BA628A21F4D00D1BB31 /* Components */ = {
+			isa = PBXGroup;
+			children = (
 				CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */,
 				CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */,
 				CEA99B9E28A21C1100D1BB31 /* WindowsCheckBox.swift */,
@@ -121,7 +130,14 @@
 				CEA99BA228A21EB300D1BB31 /* WindowsTextEdit.swift */,
 				CEA99BA428A21EC100D1BB31 /* LinuxTextEdit.swift */,
 			);
-			path = Implementations;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CEA99BA728A21F5B00D1BB31 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
