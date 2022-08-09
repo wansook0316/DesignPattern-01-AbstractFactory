@@ -11,7 +11,7 @@ internal protocol CheckBox {
 
     var isChecked: Bool { get set }
 
-    func updateIsChecked(to isChecked: Bool)
+    mutating func updateIsChecked(to isChecked: Bool)
     func render()
 
 }

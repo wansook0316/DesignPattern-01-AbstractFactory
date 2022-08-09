@@ -14,6 +14,8 @@
 		CEA99B9728A21A1E00D1BB31 /* ComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */; };
 		CEA99B9B28A21AEB00D1BB31 /* WindowsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */; };
 		CEA99B9D28A21BDB00D1BB31 /* LinuxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */; };
+		CEA99B9F28A21C1100D1BB31 /* WindowsCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9E28A21C1100D1BB31 /* WindowsCheckBox.swift */; };
+		CEA99BA128A21C1900D1BB31 /* LinuxCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99BA028A21C1900D1BB31 /* LinuxCheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,8 @@
 		CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentFactory.swift; sourceTree = "<group>"; };
 		CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsButton.swift; sourceTree = "<group>"; };
 		CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxButton.swift; sourceTree = "<group>"; };
+		CEA99B9E28A21C1100D1BB31 /* WindowsCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsCheckBox.swift; sourceTree = "<group>"; };
+		CEA99BA028A21C1900D1BB31 /* LinuxCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxCheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */,
 				CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */,
+				CEA99B9E28A21C1100D1BB31 /* WindowsCheckBox.swift */,
+				CEA99BA028A21C1900D1BB31 /* LinuxCheckBox.swift */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -172,10 +178,12 @@
 			files = (
 				CE76811328A2170D00D51166 /* TextEdit.swift in Sources */,
 				CE76810728A2137200D51166 /* main.swift in Sources */,
+				CEA99B9F28A21C1100D1BB31 /* WindowsCheckBox.swift in Sources */,
 				CEA99B9D28A21BDB00D1BB31 /* LinuxButton.swift in Sources */,
 				CE76810F28A213F100D51166 /* Button.swift in Sources */,
 				CE76811128A215F900D51166 /* CheckBox.swift in Sources */,
 				CEA99B9728A21A1E00D1BB31 /* ComponentFactory.swift in Sources */,
+				CEA99BA128A21C1900D1BB31 /* LinuxCheckBox.swift in Sources */,
 				CEA99B9B28A21AEB00D1BB31 /* WindowsButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
