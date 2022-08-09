@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+internal struct LinuxFactory: ComponentFactory {
+    
+    internal func createButton(caption: String) -> Button {
+        return LinuxButton(caption: caption)
+    }
+    
+    internal func createCheckBox(isChecked: Bool) -> CheckBox {
+        return LinuxCheckBox(isChecked: isChecked)
+    }
+    
+    internal func createTextEdit(value: String) -> TextEdit {
+        return LinuxTextEdit(value: value)
+    }
+    
+}

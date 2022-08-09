@@ -9,11 +9,11 @@ import Foundation
 
 internal protocol ComponentFactory {
     
-    func createButton(caption: String)
+    func createButton(caption: String) -> Button
     
-    func createCheckBox(isChecked: Bool)
+    func createCheckBox(isChecked: Bool) -> CheckBox
     
-    func createTextEdit(value: String)
+    func createTextEdit(value: String) -> TextEdit
     
 }
 
