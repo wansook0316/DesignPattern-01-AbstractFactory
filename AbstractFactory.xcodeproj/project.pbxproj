@@ -12,6 +12,7 @@
 		CE76811128A215F900D51166 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76811028A215F900D51166 /* CheckBox.swift */; };
 		CE76811328A2170D00D51166 /* TextEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76811228A2170D00D51166 /* TextEdit.swift */; };
 		CEA99B9728A21A1E00D1BB31 /* ComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */; };
+		CEA99B9B28A21AEB00D1BB31 /* WindowsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		CE76811028A215F900D51166 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		CE76811228A2170D00D51166 /* TextEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEdit.swift; sourceTree = "<group>"; };
 		CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentFactory.swift; sourceTree = "<group>"; };
+		CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		CEA99B9928A21AC700D1BB31 /* Implementations */ = {
 			isa = PBXGroup;
 			children = (
+				CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				CE76810F28A213F100D51166 /* Button.swift in Sources */,
 				CE76811128A215F900D51166 /* CheckBox.swift in Sources */,
 				CEA99B9728A21A1E00D1BB31 /* ComponentFactory.swift in Sources */,
+				CEA99B9B28A21AEB00D1BB31 /* WindowsButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
