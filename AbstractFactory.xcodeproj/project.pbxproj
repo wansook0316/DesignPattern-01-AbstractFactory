@@ -65,8 +65,8 @@
 		CE76810528A2137200D51166 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				CEA99B9528A21A0400D1BB31 /* Factories */,
-				CE76810D28A213C800D51166 /* Components */,
+				CEA99B9928A21AC700D1BB31 /* Implementations */,
+				CEA99B9828A21AB700D1BB31 /* Interfaces */,
 				CE76810628A2137200D51166 /* main.swift */,
 			);
 			path = AbstractFactory;
@@ -88,6 +88,22 @@
 				CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */,
 			);
 			path = Factories;
+			sourceTree = "<group>";
+		};
+		CEA99B9828A21AB700D1BB31 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				CEA99B9528A21A0400D1BB31 /* Factories */,
+				CE76810D28A213C800D51166 /* Components */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		CEA99B9928A21AC700D1BB31 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Implementations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
