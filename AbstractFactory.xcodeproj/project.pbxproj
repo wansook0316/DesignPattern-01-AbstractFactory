@@ -13,6 +13,7 @@
 		CE76811328A2170D00D51166 /* TextEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76811228A2170D00D51166 /* TextEdit.swift */; };
 		CEA99B9728A21A1E00D1BB31 /* ComponentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */; };
 		CEA99B9B28A21AEB00D1BB31 /* WindowsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */; };
+		CEA99B9D28A21BDB00D1BB31 /* LinuxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		CE76811228A2170D00D51166 /* TextEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEdit.swift; sourceTree = "<group>"; };
 		CEA99B9628A21A1E00D1BB31 /* ComponentFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentFactory.swift; sourceTree = "<group>"; };
 		CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowsButton.swift; sourceTree = "<group>"; };
+		CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA99B9A28A21AEB00D1BB31 /* WindowsButton.swift */,
+				CEA99B9C28A21BDB00D1BB31 /* LinuxButton.swift */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			files = (
 				CE76811328A2170D00D51166 /* TextEdit.swift in Sources */,
 				CE76810728A2137200D51166 /* main.swift in Sources */,
+				CEA99B9D28A21BDB00D1BB31 /* LinuxButton.swift in Sources */,
 				CE76810F28A213F100D51166 /* Button.swift in Sources */,
 				CE76811128A215F900D51166 /* CheckBox.swift in Sources */,
 				CEA99B9728A21A1E00D1BB31 /* ComponentFactory.swift in Sources */,
